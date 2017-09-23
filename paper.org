@@ -1,0 +1,57 @@
+:frontmatter:
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: sigchi
+#+LATEX_HEADER: \input{ext/authors}
+#+Author: 
+
+\title{\plaintitle}
+
+#+BEGIN_EXPORT latex
+\numberofauthors{1}
+\author{%
+  \alignauthor{\plainauthor\\
+    \affaddr{Institution}\\
+    \affaddr{City, Country}\\
+    \email{e-mail addresses}}\\
+}
+
+\maketitle
+
+\begin{abstract}
+Abstract to come...
+\end{abstract}
+
+%
+% Here's a visual tool for generating the CCS categories LaTeX:
+% 
+%    http://dl.acm.org/ccs/ccs.cfm
+\category{H.5.m.}{Information interfaces and presentation
+  (e.g. HCI)}{Miscellaneous} 
+
+\keywords{\plainkeywords}
+% research product?
+#+END_EXPORT
+:end:
+
+* Introduction
+
+* Acknowledgments
+
+Withheld for blind review.
+
+\balance{}
+\bibliographystyle{ext/SIGCHI-Reference-Format}
+\bibliography{ext/refs}
+
+#  LocalWords:  BCI BCI's biosensing cybersecurity SDKs BCIs San brainscanning
+#  LocalWords:  IoT Alexa Siri biosensor TODO exp dystopian mind's neuroscience
+#  LocalWords:  apparati probe's inherence pre headband wirelessly OSC FFT UI
+#  LocalWords:  timeseries XGBoost IRB weiss endedness authenticator's Terrance
+#  LocalWords:  Terrance's foundationally neurotransmitters se supercortex ppl
+#  LocalWords:  commenters Breitbart Zuckerberg Nolan brainwave utopic Neurable
+#  LocalWords:  Interaxon Grierson diff Dumit NOURA app discretized brainwaves
+#  LocalWords:  saxenian Ali al Dumit's HCI Boehner Leahu Chuang impt TOOD wong
+#  LocalWords:  position's Hutchins's Bitcoin finding's stigmatizing Glass's co
+#  LocalWords:  GOFAI Agre terrance buildable sensemaking Bitcoins biohacking
+#  LocalWords:  dieting Soylent Dolejsova harkens biopolitics Shenzhen Graz
+#  LocalWords:  Tieleman elsden timescales techno

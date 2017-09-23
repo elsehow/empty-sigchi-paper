@@ -1,0 +1,85 @@
+% Copyright
+\CopyrightYear{2016}
+%\setcopyright{acmcopyright}
+\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+% DOI
+\doi{http://dx.doi.org/10.475/123_4}
+% ISBN
+\isbn{123-4567-24-567/08/06}
+%Conference
+\conferenceinfo{CHI'18,}{April 21--26, 2018, Montreal, QC, CA}
+%Price
+\acmPrice{\$15.00}
+
+\usepackage{balance}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%% \usepackage{graphics}      % for EPS, load graphicx instead 
+%% \usepackage[T1]{fontenc}   % for umlauts and other diaeresis
+%% \usepackage{txfonts}
+%% \usepackage{mathptmx}
+\usepackage{color}
+%% \usepackage{booktabs}
+%% \usepackage{textcomp}
+%% \usepackage[pdflang={en-US},pdftex]{hyperref}
+
+\usepackage{microtype}        % Improved Tracking and Kerning
+% \usepackage[all]{hypcap}    % Fixes bug in hyperref caption linking
+\usepackage{ccicons}          % Cite your images correctly!
+
+\def\plaintitle{From Scanning Brains to Reading Minds: Talking to Engineers about Brain-Computer Interface}
+\def\plainauthor{First Author, Second Author}
+\def\emptyauthor{}
+\def\plainkeywords{brain-computer interface; mind-reading; technology probe}
+
+
+% llt: Define a global style for URLs, rather that the default one
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{
+    \def\UrlFont{\sf}
+  }{
+    \def\UrlFont{\small\bf\ttfamily}
+  }}
+\makeatother
+\urlstyle{leo}
+
+% To make various LaTeX processors do the right thing with page size.
+\def\pprw{8.5in}
+\def\pprh{11in}
+\special{papersize=\pprw,\pprh}
+\setlength{\paperwidth}{\pprw}
+\setlength{\paperheight}{\pprh}
+\setlength{\pdfpagewidth}{\pprw}
+\setlength{\pdfpageheight}{\pprh}
+
+% Make sure hyperref comes last of your loaded packages, to give it a
+% fighting chance of not being over-written, since its job is to
+% redefine many LaTeX commands.
+\definecolor{linkColor}{RGB}{6,125,233}
+\hypersetup{%
+  pdftitle={\plaintitle},
+% Use \plainauthor for final version.
+%  pdfauthor={\plainauthor},
+  pdfauthor={\emptyauthor},
+  pdfkeywords={\plainkeywords},
+  pdfdisplaydoctitle=true, % For Accessibility
+  bookmarksnumbered,
+  pdfstartview={FitH},
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=linkColor,
+  breaklinks=true,
+  hypertexnames=false
+}
+
+
+
